@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>豆瓣市集</title>
+  <style>
+  .grid-item {
+   float: left;
+   width: 33.33333%;
+   padding: 0 27.5px;
+   box-sizing: border-box;
+}
+.homepage-hot-items .product-item {
+  margin-bottom: 30px;
+}
+
+.homepage-hot-items .product-item {
+  margin-bottom: 16px;
+  line-height: 1.6;
+  position: relative;
+}
+.homepage-hot-items .product-item .p-img {
+    height: 280px;
+    margin-bottom: 10px;
+}
+
+.homepage-hot-items .product-item .p-img {
+    margin-bottom: 8px;
+    box-shadow: 0 0 2px #fff;
+}
+.homepage-hot-items .product-item .p-img a {
+    width: 280px;
+    height: 280px;
+}
+
+.homepage-hot-items .product-item .p-img a {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #e4e4e4;
+}
+
+a, a:active, a:hover, a:link, a:visited {
+    color: #5c5c5c;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a, input {
+    cursor: pointer;
+    text-decoration: none;
+}
+.homepage-hot-items .product-item .p-img a img {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.homepage-hot-items .product-item .p-img a img {
+    background-color: #e4e4e4;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+.homepage-hot-items .product-item .p-title {
+    font-weight: 700;
+}
+
+.homepage-hot-items .product-item .p-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.homepage-hot-items .product-item .p-title a {
+    color: #000;
+}
+
+a, a:active, a:hover, a:link, a:visited {
+    color: #5c5c5c;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a, input {
+    cursor: pointer;
+    text-decoration: none;
+}
+.homepage-hot-items .product-item .p-brand {
+    color: #9a9a9a;
+}
+.homepage-hot-items .product-item .p-brand a {
+    color: #9a9a9a;
+}
+
+a, a:active, a:hover, a:link, a:visited {
+    color: #5c5c5c;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a, input {
+    cursor: pointer;
+    text-decoration: none;
+}
+.homepage-hot-items .product-item .p-price {
+    color: #f05f50;
+    font-weight: 700;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.homepage-hot-items .product-item del.price {
+    color: #9a9a9a;
+    text-decoration: line-through;
+}
+ i {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+.homepage-hot-items .product-item .p-tag {
+    padding: 1px 5px;
+    font-size: 10px;
+    border: 1px solid #f05f50;
+    color: #f05f50;
+    border-radius: 10px;
+    margin: 0 5px 2px;
+    line-height: 12px;
+    height: 12px;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+}
+.homepage-hot-items .product-item .p-tag em {
+    font-size: 12px;
+    display: inline-block;
+    -webkit-transform: scale(10/12);
+    transform: scale(10/12);
+}
+  </style>
+</head>
+<body>
+    <div class="homepage-hot-items">
+       <div class="grid-item">
+          <div class="product-item">
+            <div class="p-img">
+               <a herf="https://img1.doubanio.com/view/dianpu_product_item/large/public/p488979.jpg"
+               targe="_blank"
+               title="赫丽珠宝Spelendour珍珠耳钉 日本Akoya海水珍">
+                 <img src="https://img1.doubanio.com/view/dianpu_product_item/large/public/p488979.jpg" alt="">
+               </a>
+            </div>
+            <div class="p-title">
+              <a herf="https://market.douban.com/item/65716/?r=5&index=2&category=index"
+              targe="_blank"
+              title="赫丽珠宝Spelendour珍珠耳钉 日本Akoya海水珍">
+                赫丽珠宝Spelendour珍珠耳钉 日本Akoya海水珍
+              </a>
+            </div>
+            <div class="p-brand">
+              <a href="https://market.douban.com/shop/heli/"
+              targe="_blank"
+              title="赫丽珠宝">by 赫丽珠宝</a>
+            </div>
+            <div class="p-price">
+               <del class="price">￥206.00</del>
+               <i>￥164.8</i>
+               <!-- 杜绝一切皆业务
+               css 类名本质？长得一模一样的一类
+               元素
+               脱离业务，回归样式组件
+               语义化 seo 友好-->
+               <span class="p-tag">
+                 <em>暑期折扣</em>
+               </span>
+            </div>
+
+          </div>
+       </div>
+    </div>
+</body>
+</html>
